@@ -19,11 +19,6 @@ public class Main {
         System.out.print("What age would you like to retire? ");
         int retire = input.nextInt();
 
-       // String outAdd = num1 + " + " + num2 + " = " + (num1 + num2);
-       // String outSub = num1 + " - " + num2 + " = " + (num1 - num2);
-       // String outMul = num1 + " * " + num2 + " = " + (num1 * num2);
-       // String outDiv = num1 + " / " + num2 + " = " + (num1 / num2);
-
         int year = Calendar.getInstance().get(Calendar.YEAR);
         int retYears = retire - age;
 
